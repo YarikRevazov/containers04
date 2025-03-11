@@ -49,6 +49,7 @@ apt install apache2 -y
 service apache2 start
 ```
 Запускает Apache в контейнере.
+![Image](https://github.com/user-attachments/assets/911d237b-4ef6-4435-8c14-f6d35ef7207e)
 
 ### 5. Проверка работы сервера
 Откройте браузер и введите в адресной строке:
