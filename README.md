@@ -12,20 +12,14 @@
 ## Выполнение
 
 ### 1. Создание репозитория
-Создайте репозиторий `containers04` и склонируйте его себе на компьютер:
+Создаю репозиторий `containers04` и склонирую его себе на компьютер:
 ```sh
 git clone https://github.com/your_username/containers04.git
 cd containers04
 ```
 
-### 2. Создание файла README.md
-Создайте файл `README.md` и добавьте описание проекта:
-```sh
-touch README.md
-```
-
-### 3. Запуск контейнера Ubuntu
-Откройте терминал в папке `containers04` и выполните команду:
+### 2. Запуск контейнера Ubuntu
+Открываю терминал в папке `containers04` и выполняю команду:
 ```sh
 docker run -ti -p 8000:80 --name containers04 ubuntu bash
 ```
@@ -33,8 +27,8 @@ docker run -ti -p 8000:80 --name containers04 ubuntu bash
 ![Image](https://github.com/user-attachments/assets/d24e7652-5938-4cf7-842a-9d445d062d48)
 
 
-### 4. Установка и запуск Apache
-Выполните следующие команды внутри контейнера:
+### 3. Установка и запуск Apache
+Выполняю следующие команды внутри контейнера:
 ```sh
 apt update
 ```
@@ -51,16 +45,16 @@ service apache2 start
 Запускает Apache в контейнере.
 ![Image](https://github.com/user-attachments/assets/911d237b-4ef6-4435-8c14-f6d35ef7207e)
 
-### 5. Проверка работы сервера
-Откройте браузер и введите в адресной строке:
+### 4. Проверка работы сервера
+Открываю браузер и ввожу в адресной строке:
 ```
 http://localhost:8000
 ```
-Вы должны увидеть стандартную страницу Apache.
+Вижу стандартную страницу Apache.
 ![Image](https://github.com/user-attachments/assets/7a941de5-dad7-46c1-9c5a-2ba50f8eee63)
 
-### 6. Изменение содержимого веб-страницы
-Выполните следующие команды:
+### 5. Изменение содержимого веб-страницы
+Выполняю следующие команды:
 ```sh
 ls -l /var/www/html/
 ```
@@ -71,11 +65,11 @@ echo '<h1>Hello, World!</h1>' > /var/www/html/index.html
 ```
 Создает HTML-файл с текстом "Hello, World!".
 
-Обновите страницу в браузере. Теперь на экране появится текст "Hello, World!".
+Обновляю страницу в браузере. Теперь на экране появился текст "Hello, World!".
 ![Image](https://github.com/user-attachments/assets/6de9b7c9-4d7a-469b-a050-c4d877f71430)
 
-### 7. Анализ конфигурации Apache
-Перейдите в директорию конфигурации Apache и выведите содержимое файла `000-default.conf`:
+### 6. Анализ конфигурации Apache
+Перехожу в директорию конфигурации Apache и вывожу содержимое файла `000-default.conf`:
 ```sh
 cd /etc/apache2/sites-enabled/
 cat 000-default.conf
@@ -84,13 +78,13 @@ cat 000-default.conf
 ![Image](https://github.com/user-attachments/assets/df34a200-7729-4b39-9944-e906ec47bea7)
 
 ### 8. Завершение работы контейнера
-Выполните команду:
+Выполняю команду:
 ```sh
 exit
 ```
 Закроет терминал контейнера и остановит его.
 
-### 9. Управление контейнером
+### . Управление контейнером
 Проверка списка контейнеров:
 ```sh
 docker ps -a
