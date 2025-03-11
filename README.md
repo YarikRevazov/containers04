@@ -81,6 +81,7 @@ cd /etc/apache2/sites-enabled/
 cat 000-default.conf
 ```
 Этот файл содержит конфигурацию виртуального хоста Apache.
+![Image](https://github.com/user-attachments/assets/df34a200-7729-4b39-9944-e906ec47bea7)
 
 ### 8. Завершение работы контейнера
 Выполните команду:
