@@ -65,6 +65,7 @@ http://localhost:8000
 ls -l /var/www/html/
 ```
 Отобразит список файлов в корневой директории веб-сервера.
+![Image](https://github.com/user-attachments/assets/7d3be885-42a6-4130-a085-4533e39a264b)
 ```sh
 echo '<h1>Hello, World!</h1>' > /var/www/html/index.html
 ```
