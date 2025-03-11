@@ -44,6 +44,7 @@ apt update
 apt install apache2 -y
 ```
 Устанавливает веб-сервер Apache.
+![Image](https://github.com/user-attachments/assets/3ce91172-5ee2-4384-8b4b-c1523469b228)
 ```sh
 service apache2 start
 ```
