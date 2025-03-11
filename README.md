@@ -57,6 +57,7 @@ service apache2 start
 http://localhost:8000
 ```
 Вы должны увидеть стандартную страницу Apache.
+![Image](https://github.com/user-attachments/assets/7a941de5-dad7-46c1-9c5a-2ba50f8eee63)
 
 ### 6. Изменение содержимого веб-страницы
 Выполните следующие команды:
