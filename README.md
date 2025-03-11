@@ -30,6 +30,8 @@ touch README.md
 docker run -ti -p 8000:80 --name containers04 ubuntu bash
 ```
 Эта команда запускает контейнер на основе образа Ubuntu, пробрасывает порт 8000 контейнера на порт 80 и открывает терминал внутри контейнера.
+![Image](https://github.com/user-attachments/assets/d24e7652-5938-4cf7-842a-9d445d062d48)
+
 
 ### 4. Установка и запуск Apache
 Выполните следующие команды внутри контейнера:
