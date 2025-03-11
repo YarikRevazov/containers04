@@ -96,6 +96,7 @@ exit
 docker ps -a
 ```
 Выведет список всех контейнеров, включая остановленные.
+![Image](https://github.com/user-attachments/assets/35303fa0-9083-402b-a12b-b9cfb86d9f5b)
 
 Удаление контейнера:
 ```sh
