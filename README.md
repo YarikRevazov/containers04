@@ -72,6 +72,7 @@ echo '<h1>Hello, World!</h1>' > /var/www/html/index.html
 Создает HTML-файл с текстом "Hello, World!".
 
 Обновите страницу в браузере. Теперь на экране появится текст "Hello, World!".
+![Image](https://github.com/user-attachments/assets/6de9b7c9-4d7a-469b-a050-c4d877f71430)
 
 ### 7. Анализ конфигурации Apache
 Перейдите в директорию конфигурации Apache и выведите содержимое файла `000-default.conf`:
