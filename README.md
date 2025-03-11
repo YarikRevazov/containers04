@@ -39,6 +39,7 @@ docker run -ti -p 8000:80 --name containers04 ubuntu bash
 apt update
 ```
 Обновляет список пакетов в контейнере.
+![Image](https://github.com/user-attachments/assets/46b9fc28-4b7e-43ee-9777-bc123b5bc0db)
 ```sh
 apt install apache2 -y
 ```
